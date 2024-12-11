@@ -10,6 +10,9 @@ function [xi] = composite_simpson(f, b, a, n)
     % Returns:
     %     xi: integral value.
 
+
+
+
     h = (b - a) / n;
 
     sum_odd = 0;
